@@ -1,0 +1,356 @@
+
+
+body {
+/*  background: grey;*/
+/*     overflow: hidden;*/
+         background: rgba(240, 226, 225, 0.5);
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    overflow-x: hidden;
+
+}
+
+.container1{
+/*    position: relative;*/
+
+/*    height: 100vh;*/
+/*    z-index:1;*/
+/*
+    display: flex;
+    justify-content: left;
+*/
+/*    overflow: hidden;*/
+
+
+
+}
+.logocontainer{
+    max-height: 250px;
+/*    overflow: hidden;*/
+     position: relative;
+}
+
+
+
+#logo{
+
+/*    transform: translateY(-11em);*/
+    width:600px;
+    max-width: 100%;
+
+    opacity: 1;
+    position: relative;
+/*     overflow: hidden*/
+/*    z-index: 1000;*/
+
+}
+#vector{
+    opacity: 0;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+/*     z-index: 1000;*/
+
+}
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.mainrow{
+    position: relative;
+/*    transform: translateY(-11em);*/
+/*    top:-200px;*/
+
+
+}
+.cat{
+max-height: 500px;
+     opacity: 1;
+    margin: 10px 10px 0 ;
+
+    background-color: ghostwhite;
+    padding:0px;
+/* transform: translateY(-11em);*/
+
+    text-align: center;
+
+    overflow: hidden;
+     -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+     box-shadow: 5px 5px 25px grey;
+}.cat:hover{
+box-shadow: 0px 0px 0px grey;
+
+}
+
+.cat span{
+
+    position: relative;
+
+    font-size: 24px ;
+/*    font-weight:bold;*/
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+
+
+    }
+
+#biblia:before{
+    width: 100%;
+    height: 100%;
+    content: "Στο κατάστημά μας θα βρείτε μεγάλη ποικιλία βιβλίων για όλα τα γούστα. Ιστορικά, αστυνομικά, φανταστικά καταπληκτικά, υπέροχα και πολύ φτηνά ";
+     font-size: 1.2em ;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    background-color:rgba(93, 95, 126,0);
+    padding: 30px 0px 0px 0px;
+    color:#fff;
+    text-shadow: 2px 2px 7px grey;
+    margin: 0;
+    top:-250px;
+    left: 0;
+    opacity: 0;
+     -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+     -webkit-transition-delay: 0.2s; /* Safari */
+    transition-delay: 0.2s;
+}
+#biblia:hover:before{
+   opacity: 1;
+    z-index: 100;
+     background-color:rgba(93, 95, 126,0.7);
+     top:35px;
+}
+#xartika:before{
+    width: 100%;
+    height: 100%;
+    content: "Στο κατάστημά μας θα βρείτε μεγάλη ποικιλία βιβλίων για όλα τα γούστα. Ιστορικά, αστυνομικά, φανταστικά καταπληκτικά, υπέροχα και πολύ φτηνά ";
+     font-size: 1.2em ;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    background-color:rgba(93, 95, 126,0);
+    padding: 30px 0px 0px 0px;
+    color:#fff;
+    text-shadow: 2px 2px 7px grey;
+    margin: 0;
+    top:-250px;
+    left: 0;
+    opacity: 0;
+     -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+     -webkit-transition-delay: 0.2s; /* Safari */
+    transition-delay: 0.2s;
+}
+#xartika:hover:before{
+   opacity: 1;
+    z-index: 100;
+     background-color:rgba(126, 93, 112,0.7);
+     top:35px;
+}#dora:before{
+    width: 100%;
+    height: 100%;
+    content: "Στο κατάστημά μας θα βρείτε μεγάλη ποικιλία βιβλίων για όλα τα γούστα. Ιστορικά, αστυνομικά, φανταστικά καταπληκτικά, υπέροχα και πολύ φτηνά ";
+     font-size: 1.2em ;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    background-color:rgba(93, 95, 126,0);
+    padding: 30px 0px 0px 0px;
+    color:#fff;
+    text-shadow: 2px 2px 7px grey;
+    margin: 0;
+    top:-250px;
+    left: 0;
+    opacity: 0;
+     -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+     -webkit-transition-delay: 0.2s; /* Safari */
+    transition-delay: 0.2s;
+}
+#dora:hover:before{
+   opacity: 1;
+    z-index: 100;
+     background-color:rgba(126, 124, 93,0.8);
+     top:35px;
+}
+#games:before{
+    width: 100%;
+    height: 100%;
+    content: "Στο κατάστημά μας θα βρείτε μεγάλη ποικιλία βιβλίων για όλα τα γούστα. Ιστορικά, αστυνομικά, φανταστικά καταπληκτικά, υπέροχα και πολύ φτηνά ";
+     font-size: 1.2em ;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    background-color:rgba(93, 95, 126,0);
+    padding: 30px 0px 0px 0px;
+    color:#fff;
+    text-shadow: 2px 2px 7px grey;
+    margin: 0;
+    top:-250px;
+    left: 0;
+    opacity: 0;
+     -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+     -webkit-transition-delay: 0.2s; /* Safari */
+    transition-delay: 0.2s;
+}
+#games:hover:before{
+   opacity: 1;
+    z-index: 100;
+     background-color:rgba(93, 126, 108,0.8);
+     top:35px;
+}
+
+.spnCon{
+/*
+    height: 35px;
+
+*/
+    background-color: #5D5F7E;
+     z-index: 110;
+
+
+}.spnCon2{
+    background-color: #7E5D70;
+     z-index: 110;
+
+}.spnCon3{
+    background-color: #7E7C5D;
+     z-index: 110;
+
+}.spnCon4{
+    background-color: #5D7E6C;
+     z-index: 110;
+
+/*    rgb(93, 126, 108);*/
+}
+
+
+.icon {
+
+    padding:3vw;
+    opacity: 1;
+    background-color: hsla(360, 5%, 70%,0.2);
+/*    padding:60px;*/
+    z-index:10;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+.icon:hover{
+    background-color: white;
+
+
+}
+
+.word{
+
+
+}
+.commu{
+/*    position: relative;*/
+/*    margin-top: 10vh;*/
+/*    transform: translateY(-18em);*/
+/*    height:40vh;*/
+    background-color:hsla(247, 10%, 33%,0.6);
+    opacity: 1;
+/*
+    display: flex;
+    justify-content: center;
+    align-content: center;
+*/
+/*    align-items: center;*/
+/*    bottom: 0;*/
+
+}
+.fcont{
+
+/*    text-align: center;*/
+    color:white;
+/*    padding: 0.11rem 0.11rem */
+
+}
+.fcont li {
+    font-size: 1.3em;
+    list-style: none;
+    padding: 1rem 0.2rem ;
+}
+.contact{
+    padding:  1rem 1rem;
+
+}
+.map{
+   padding: 5px;
+    margin: 10px 0 50px 0;
+    border: solid  2px ;
+    border-color: hsla(247, 10%, 33%,0.4);
+    border-radius: 7px;
+
+
+}
+.footer{
+    height:50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content:space-between;
+
+    align-items: center;
+    color: grey;
+}
+.footer span{
+    color: dimgray;
+    display: flex;
+
+
+
+}
+#k{
+    font-size: 8pt;
+    color: #fff;
+        font-family: 'Comfortaa', cursive;
+     -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+#k:hover{
+        color: grey;
+    font-size: 12pt;
+        font-family: 'Comfortaa', cursive;
+}
+.face{
+    margin: 30px 0px;
+    height:200px;
+    font-size: 1.3em;
+    opacity: 0.5
+/*    padding:  5rem 1rem;*/
+
+
+}
+.face *{
+    padding:  1rem 1rem;
+    text-align: right
+}
+h2{
+
+    border-left: 6px solid #eb5e33;
+    padding-left: 10px;
+    transform: translateX(-16px)
+
+
+
+
