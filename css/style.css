@@ -296,9 +296,11 @@ box-shadow: 0px 0px 0px grey;
 .map{
    padding: 5px;
     margin: 10px 0 50px 0;
+/*
     border: solid  2px ;
     border-color: hsla(247, 10%, 33%,0.4);
     border-radius: 7px;
+*/
 
 
 }
