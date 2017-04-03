@@ -23,17 +23,18 @@ mojs.addShape( 'gg',GG ); // passing name and Bubble class
 /* USE CUSTOM SHAPE */
 // now it is available on mojs.Shape constructor as usual
 const gg = new mojs.Shape({
-  shape:   'gg', // <--- shape of heart is now available!
+  shape:   'gg', //
   fill:"none",
   stroke:   'black',
-  strokeWidth:{0.31:0},
+  strokeWidth:0.31,
+	opacity:{1:0,easing:'cubic.out'},
   strokeDasharray:  '100%',
   strokeDashoffset: { '-100%' : '100%' },
   scale: 6,
-
-  duration: 4000,
+  y:-3,
+  duration: 5000,
   parent: "#logo",
-   easing:        'cubic.out',
+  easing: 'ease.out',
 
 }).play();
 
