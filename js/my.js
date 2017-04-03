@@ -1,6 +1,6 @@
 ///////////////////gsap///////////////////////////////
 
-TweenMax.staggerFrom('.cat',0.5,{opacity:0,delay:1.5,ease:Power2.easeIn},0.25);
+TweenMax.staggerTo('.cat',0.5,{opacity:1,delay:1.5,ease:Power2.easeIn},0.25);
 TweenMax.from('.commu',1,{opacity:0,delay:2,ease:Power1.easeIn});
 
 
