@@ -280,6 +280,7 @@ margin: 10px 0px 0 0 ;
 /*    height:40vh;*/
     background-color:hsla(247, 10%, 33%,0.6);
     opacity: 1;
+
 /*
     display: flex;
     justify-content: center;
@@ -288,6 +289,9 @@ margin: 10px 0px 0 0 ;
 /*    align-items: center;*/
 /*    bottom: 0;*/
 
+}
+.info{
+	padding: 3rem 0
 }
 .fcont{
 
@@ -302,9 +306,9 @@ margin: 10px 0px 0 0 ;
     padding: 1rem 0.2rem ;
 	margin: 15px 5px;
 }
-li>.fa{
-	margin: 5px 15px;
-	 font-size: 1.2em;
+li>a>.fa{
+	margin: 0px 15px 10px 0px;
+	 font-size: 1.6em;
 }
 .contact{
     padding:  1rem 1rem;
@@ -373,6 +377,9 @@ h2{
     padding-left: 10px;
 	transform: translateX(-16px)}
 
-
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
 
 
