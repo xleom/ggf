@@ -55,8 +55,7 @@ body {
 }
 .cat{
 
-	justify-content: center;
-	flex-wrap: wrap;
+
 /*max-height: 500px;*/
 max-width:100%;
 opacity: 0;
@@ -76,13 +75,23 @@ margin: 10px 0px 0 0 ;
 
     position: relative;
 
-    font-size: 2.2rem ;
+    font-size: 1.8rem ;
 /*    font-weight:bold;*/
     font-family: 'Comfortaa', cursive;
     color: aliceblue;
 
 
     }
+@media only screen and (max-width: 768px) {
+   .cat span{
+
+
+    font-size: 3rem ;
+
+
+    }
+}
+
 
 #biblia:before{
     width: 80%;
@@ -105,7 +114,7 @@ margin: 10px 0px 0 0 ;
     transition: all 0.4s ease-out;
      -webkit-transition-delay: 0.2s; /* Safari */
     transition-delay: 0.2s;
-     font-size: 1.8rem ;
+     font-size: 1.1rem ;
     text-align: left;
     padding: 15px 5px 0 10px ;
 }
@@ -136,7 +145,7 @@ margin: 10px 0px 0 0 ;
     transition: all 0.4s ease-out;
      -webkit-transition-delay: 0.2s; /* Safari */
     transition-delay: 0.2s;
-     font-size: 1.8rem ;
+     font-size: 1.1rem ;
     text-align: left;
     padding: 15px 5px 0 10px ;
 }
@@ -166,7 +175,7 @@ margin: 10px 0px 0 0 ;
     transition: all 0.4s ease-out;
      -webkit-transition-delay: 0.2s; /* Safari */
     transition-delay: 0.2s;
-      font-size: 1.8rem ;
+      font-size: 1.1rem ;
     text-align: left;
     padding: 15px 5px 0 10px ;
 }
@@ -180,7 +189,7 @@ margin: 10px 0px 0 0 ;
     width: 80%;
     height: 100%;
     content: "Στο κατάστημά μας θα βρείτε μεγάλη ποικιλία βιβλίων για όλα τα γούστα. Ιστορικά, αστυνομικά, φανταστικά καταπληκτικά, υπέροχα και πολύ φτηνά ";
-    font-size: 1.8rem ;
+    font-size: 1.1rem ;
     text-align: left;
     padding: 15px 5px 0 10px ;
     position: absolute;
