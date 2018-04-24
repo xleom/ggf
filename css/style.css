@@ -29,7 +29,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 	#logo{
 
 /*    transform: translateY(-11em);*/
