@@ -10,7 +10,8 @@ body {
 
 }
 .wrapper{
-	overflow-x: hidden;
+	overflow: hidden;
+	position: static;
 }
 
 
