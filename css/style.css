@@ -350,6 +350,13 @@ margin: 10px 0px 0 0 ;
     padding: 0.5rem 0rem ;
 	margin: 15px 5px;
 }
+	.info{
+	padding: 1rem 0
+}
+	.contact{
+    padding:  0.4rem 0.4rem;
+
+}
 }
 li>a>.fa{
 	margin: 0px 15px 10px 0px;
