@@ -14,7 +14,7 @@ body {
 
 .logocontainer{
     max-height: 250px;
-/*    overflow: hidden;*/
+    overflow: hidden;
      position: relative;
 }
 
@@ -345,7 +345,7 @@ margin: 10px 0px 0 0 ;
 }
 @media only screen and (max-width: 768px){
 .fcont li {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     list-style: none;
     padding: 0.5rem 0rem ;
 	margin: 15px 5px;
