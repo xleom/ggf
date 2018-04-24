@@ -28,9 +28,15 @@ body {
     opacity: 1;
     position: relative;
     overflow: hidden;
-/*    z-index: 1000;*/
-
 }
+@media only screen and (max-width: 768px) {
+	#logo{
+
+/*    transform: translateY(-11em);*/
+    display: none;
+}
+}
+
 #vector{
     opacity: 0;
     -webkit-animation-name: opac;
