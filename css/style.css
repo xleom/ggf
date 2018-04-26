@@ -143,7 +143,7 @@ margin: 10px 0px 0 0 ;
    opacity: 1;
     z-index: 100;
      background-color:rgba(93, 95, 126,0.7);
-     top:35px;
+     top:45px;
 }
 #xartika:before{
     width: 80%;
@@ -174,7 +174,7 @@ margin: 10px 0px 0 0 ;
    opacity: 1;
     z-index: 100;
      background-color:rgba(126, 93, 112,0.7);
-     top:35px;
+     top:45px;
 }#dora:before{
      width: 80%;
     height: 100%;
@@ -204,7 +204,7 @@ margin: 10px 0px 0 0 ;
    opacity: 1;
     z-index: 100;
      background-color:rgba(126, 124, 93,0.8);
-     top:35px;
+     top:45px;
 }
 #games:before{
     width: 80%;
@@ -234,7 +234,7 @@ margin: 10px 0px 0 0 ;
    opacity: 1;
     z-index: 100;
      background-color:rgba(93, 126, 108,0.8);
-     top:35px;
+     top:45px;
 }
 .word{
 
@@ -243,6 +243,9 @@ margin: 10px 0px 0 0 ;
 
 }
 .spnCon{
+	padding: 0.5rem;
+}
+.spnCon1{
 
 	-webkit-box-flex: 1;
 
@@ -275,7 +278,13 @@ margin: 10px 0px 0 0 ;
 
 /*    rgb(93, 126, 108);*/
 }
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
 .iconrow{
+	min-height: 250px;
 	width:80%;
 	overflow: hidden;
 	background-color: white;
@@ -305,8 +314,8 @@ margin: 10px 0px 0 0 ;
 
 
 .icon {
-
-    padding:2rem;
+height: 100%;
+    padding:0rem 4rem;
     opacity: 1;
     background-color:white;
 /*    padding:60px;*/
