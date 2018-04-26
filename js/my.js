@@ -28,7 +28,7 @@ const gg = new mojs.Shape({
   fill:"none",
   stroke:   'black',
   strokeWidth:0.31,
-	opacity:{1:0,easing:'cubic.out'},
+  opacity:{1:0,easing:'cubic.out'},
   strokeDasharray:  '100%',
   strokeDashoffset: { '-100%' : '100%' },
   scale: 6,
@@ -42,7 +42,7 @@ const gg = new mojs.Shape({
 const burst = new mojs.Burst({
   radius:   { 0: 200 },
   count:    10,
-     y:-150,
+  y:-150,
   children: {
     shape:      'polygon',
     points:     6,
@@ -52,7 +52,7 @@ const burst = new mojs.Burst({
     delay:      1000,
     radius:{7:3},
     parent: "#logo",
-       easing:        'cubic.out',
+    easing:  'cubic.out',
 
   }
 }).play();
