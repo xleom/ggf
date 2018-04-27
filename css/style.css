@@ -36,6 +36,17 @@ html, body {
     position: relative;
     overflow: hidden;
 }
+.since{
+	height: 200px;
+    display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	transform: rotate(-8deg);
+	font-size: 4rem;
+	color: darkgrey;
+	font-family: 'Pinyon Script', cursive;
+}
 @media only screen and (max-width: 900px) {
 	#logo{
 
@@ -398,7 +409,7 @@ li>a>.fa{
 .map{
 	position: relative;
 /*	height:auto;*/
-	border-top: 20px solid lightgrey;
+	border-top: 40px solid rgba(192,192,192,0.7);
     padding: 0px;
 /*    margin: 20px 0px 0px 0px;*/
 /*
