@@ -43,7 +43,7 @@ html, body {
 	align-content: center;
 	align-items: center;
 	transform: rotate(-8deg);
-	font-size: 4rem;
+	font-size: 3rem;
 	color: darkgrey;
 	font-family: 'Pinyon Script', cursive;
 }
@@ -56,10 +56,11 @@ html, body {
 	.since{
 	height: 100px;
     display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-content: center;
 	align-items: center;
-	transform: translateY(-150px) rotate(-8deg);
+	transform: translateY(-160px) rotate(-12deg);
+        padding: 10px;
 
 
 
@@ -67,6 +68,7 @@ html, body {
 	color: darkgrey;
 	font-family: 'Pinyon Script', cursive;
 }
+    .toprow{height:220px}
 }
 
 #vector{
@@ -497,6 +499,9 @@ h2{
 a {
   color: #eaeaea;
   text-decoration: none;
+}
+a:hover{
+    color: #016a69;
 }
 
 

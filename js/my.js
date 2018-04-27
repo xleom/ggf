@@ -4,7 +4,7 @@ TweenMax.staggerTo('.cat',0.5,{opacity:1,delay:1.5,ease:Power2.easeIn},0.25);
 TweenMax.from('.commu',1,{opacity:0,delay:2,ease:Power1.easeIn});
 TweenMax.staggerFrom('.jump',1,{opacity:0,y:'+=15',delay:2,ease:Power2.easeIn},0.25);
 
-TweenMax.to('.since', 3, {text:"since 1821", ease:Power2.easeIn});
+TweenMax.to('.since', 3, {text:"established in 1821", ease:Power2.easeIn});
 
 
 
