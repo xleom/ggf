@@ -53,6 +53,17 @@ html, body {
 /*    transform: translateY(-11em);*/
     display: none;
 }
+	.since{
+	height: 100px;
+    display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	transform: rotate(-8deg);
+	font-size: 2rem;
+	color: darkgrey;
+	font-family: 'Pinyon Script', cursive;
+}
 }
 
 #vector{
