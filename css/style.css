@@ -59,7 +59,10 @@ html, body {
 	justify-content: space-around;
 	align-content: center;
 	align-items: center;
-	transform: rotate(-8deg);
+	transform: translateY(-150px) rotate(-8deg);
+
+
+
 	font-size: 2rem;
 	color: darkgrey;
 	font-family: 'Pinyon Script', cursive;
