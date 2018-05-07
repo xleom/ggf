@@ -4,7 +4,7 @@ TweenMax.staggerTo('.cat',0.5,{opacity:1,delay:1.5,ease:Power2.easeIn},0.25);
 TweenMax.from('.commu',1,{opacity:0,delay:2,ease:Power1.easeIn});
 TweenMax.staggerFrom('.jump',1,{opacity:0,y:'+=15',delay:2,ease:Power2.easeIn},0.25);
 
-TweenMax.to('.since', 2, {text:"Established in 1962",delay:2 ,ease:Linear.none});
+TweenMax.to('.since', 2, {text:"Established in 1826",delay:2 ,ease:Linear.none});
 TweenMax.to('.since', 3, {text:"Reestablished in 2015",delay:5, ease:Linear.none});
 
 
