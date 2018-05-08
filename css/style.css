@@ -43,9 +43,10 @@ html, body {
 	align-content: flex-end;
 	align-items: flex-end;
 	transform: rotate(-8deg);
-	font-size: 2.7rem;
+	font-size: 3rem;
 	color: darkgrey;
-	font-family: 'Pinyon Script', cursive;
+
+   font-family: 'Great Vibes', cursive;
     padding: 20px;
 }
 @media only screen and (max-width: 900px) {
@@ -57,17 +58,17 @@ html, body {
 	.since{
 	height: 140px;
     display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-content: center;
 	align-items: center;
 	transform: translateY(-140px) rotate(-8deg);
-        padding: 10px 40px;
+        padding: 0px 60px;
 
 
 
-	font-size: 1.7rem;
+	font-size: 1.9rem;
 	color: dimgray;
-	font-family: 'Pinyon Script', cursive;
+
 }
     .toprow{height:220px}
 }

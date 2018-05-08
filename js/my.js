@@ -4,8 +4,8 @@ TweenMax.staggerTo('.cat',0.5,{opacity:1,delay:1.5,ease:Power2.easeIn},0.25);
 TweenMax.from('.commu',1,{opacity:0,delay:2,ease:Power1.easeIn});
 TweenMax.staggerFrom('.jump',1,{opacity:0,y:'+=15',delay:2,ease:Power2.easeIn},0.25);
 
-TweenMax.to('.since', 2, {text:"Established in 1826",delay:2 ,ease:Linear.none});
-TweenMax.to('.since', 3, {text:"We are waiting for you!",delay:5, ease:Linear.none});
+TweenMax.to('.since', 2, {text:"Established in 1826!",delay:2 ,ease:Linear.none});
+TweenMax.to('.since', 3, {text:"Thank you for visiting us!",delay:6, ease:Linear.none});
 
 
 
