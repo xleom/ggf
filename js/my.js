@@ -18,7 +18,7 @@ TweenMax.staggerFrom('.jump', 1, {
 }, 0.25);
 
 TweenMax.to('.since', 2, {
-	text: "GG rules!",
+	text: "Welcome!!",
 	delay: 2,
 	ease: Linear.none
 });
