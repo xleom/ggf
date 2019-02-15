@@ -18,21 +18,20 @@ TweenMax.staggerFrom('.jump', 1, {
 }, 0.25);
 
 TweenMax.to('.since', 2, {
-	text: "Welcome!!",
+	text: "Καλωσήρθατε!!",
 	delay: 2,
 	ease: Linear.none
 });
 TweenMax.to('.since', 3, {
-	text: "Thank you for visiting!",
+	text: "Στο κατάστημα μας, μόνο ποιότις!",
 	delay: 4,
 	ease: Linear.none
 });
-
-
-
-
-
-
+TweenMax.to('.since', 3, {
+	text: "Για τηλεφωνικές παραγγελίες <br>καλέστε στο 210-9931110.",
+	delay: 8,
+	ease: Linear.none
+});
 
 
 
@@ -195,3 +194,21 @@ const burst5 = new mojs.Burst({
 
 	}
 }).play();
+
+
+////////////orario/////////
+
+let date=new Date();
+		let month=date.getMonth()+1;
+		console.log(month);
+		let array1 = document.querySelectorAll('.timezone1');
+		let array2 = document.querySelectorAll('.timezone2');
+
+		if (month === 7 ){
+			console.log(array2);
+			array1.forEach((e)=>{e.innerText=" 9.15 - 14.30"})
+			array2.forEach((e)=>{e.innerText=" 9.15 - 14.30 και 5.30 - 9.00"})
+		}else if(month === 9){
+			array1.forEach((e)=>{e.innerText="9.15 - 21.00"})
+			array2.forEach((e)=>{e.innerText="9.15 - 21.00"})
+		}
